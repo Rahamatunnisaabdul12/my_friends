@@ -2,4 +2,8 @@ education details
 10 th
 inter
 degree
+<<<<<<< Updated upstream
 phd
+=======
+pg
+>>>>>>> Stashed changes
