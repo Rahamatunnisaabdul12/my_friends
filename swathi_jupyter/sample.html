@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Alignment Example</title>
+    <style>
+        /* Container for all images */
+        .image-container {
+            width: 100%; /* Full width of the page */
+        }
+​
+        /* First row: Left-aligned images */
+        .row-left {
+            display: flex;
+            justify-content: flex-start; /* Left-align images in first row */
+            margin-bottom: 20px; /* Space between rows */
+        }
+​
+        /* Second row: Right-aligned images */
+        .row-right {
+            display: flex;
+            justify-content: flex-end; /* Right-align images in second row */
+        }
+​
+        /* Style for the images */
+        .image-container img {
+            width: 45%; /* Adjust width of each image */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px; /* Optional: space between images */
+        }
+    </style>
+</head>
+<body>
+​
+    <h1>Two Rows with Left and Right Alignments</h1>
+​
+    <!-- Image Container -->
+    <div class="image-container">
+        <!-- First row: Two images aligned to the left -->
+        <div class="row-left">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+​
+        <!-- Second row: Two images aligned to the right -->
+        <div class="row-right">
+            <img src="image3.jpg" alt="Image 3">
+            <img src="image4.jpg" alt="Image 4">
+        </div>
+    </div>
+​
+</body>
+</html>
+​
